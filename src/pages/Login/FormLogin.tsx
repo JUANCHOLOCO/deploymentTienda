@@ -67,7 +67,7 @@ const FormLogin = () => {
             />
 
            {errors.password && touched.password && errors.password}
-           <Button variant="contained" onClick={(e: FormEvent<HTMLFormElement>) => {
+           <Button variant="contained" onClick={(e: FormEvent<any>) => {
             handleSubmit(e)
 
            }}>
