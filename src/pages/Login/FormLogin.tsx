@@ -22,7 +22,7 @@ const FormLogin = () => {
     <Formik
        initialValues={initialValues}
        validationSchema={SignUpSchema}
-       onSubmit={(values, { setSubmitting }) => {
+       onSubmit={(values, { }) => {
          console.log(values)
          history.push("/store")
        }}
@@ -34,7 +34,6 @@ const FormLogin = () => {
          handleChange,
          handleBlur,
          handleSubmit,
-         isSubmitting,
          /* and other goodies */
        }) => (
          <form onSubmit={handleSubmit} style={{
