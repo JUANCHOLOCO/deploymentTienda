@@ -176,7 +176,7 @@ export const MuiCard = ({ product }: { product: Product }) => {
                                     color={'#585858'}
                                     marginTop={-0.5}
                                 >
-                                    List Price:{' '}
+                                    Precio:{' '}
                                     <Typography
                                         component="span"
                                         sx={{

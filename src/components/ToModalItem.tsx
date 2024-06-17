@@ -127,7 +127,7 @@ export const ModalItem = () => {
                                 to={`/store/product/${productModal.id}/${productModal.percentage}`}
                                 onClick={handleOpen}
                             >
-                                <Typography>View product details</Typography>
+                                <Typography>Ver detalle del producto</Typography>
                             </Link>
                         </Box>
                         <Box display="flex" alignItems="center" my={2}>
@@ -158,7 +158,7 @@ export const ModalItem = () => {
                                     color="textSecondary"
                                     mt={-0.5}
                                 >
-                                    List Price:{' '}
+                                    Precio:{' '}
                                     <Typography
                                         component="span"
                                         style={{
@@ -193,7 +193,7 @@ export const ModalItem = () => {
                                                 fontSize={13}
                                                 color={'primary.dark'}
                                             >
-                                                You have
+                                                Tienes
                                                 <Typography
                                                     component="span"
                                                     fontWeight="bold"
@@ -206,7 +206,7 @@ export const ModalItem = () => {
                                                             productModal.id,
                                                     )?.quantity
                                                 } `}</Typography>
-                                                items in your cart
+                                                articulos en tu carrito
                                             </Typography>
                                         </Box>
                                     )}
@@ -259,8 +259,8 @@ export const ModalItem = () => {
                                                 (item) =>
                                                     item.id === productModal.id,
                                             )?.quantity
-                                                ? 'Update Cart'
-                                                : 'Add to Cart'}
+                                                ? 'Actualizar carrito'
+                                                : 'Agregar al carrito'}
                                         </Button>
                                     </Box>
                                 </Box>

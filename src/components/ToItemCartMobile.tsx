@@ -56,7 +56,7 @@ export const ItemCartMobile = ({ item }: { item: CartItem }) => {
                     justifyContent={'space-between'}
                 >
                     <Typography variant="body1" fontWeight={'bold'} pl={2}>
-                        Quantity
+                        Cantidad
                     </Typography>
                     <Box
                         display={'flex'}

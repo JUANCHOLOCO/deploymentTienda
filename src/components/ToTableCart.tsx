@@ -41,9 +41,9 @@ export const TableCart = () => {
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell align="center">Product</TableCell>
-                            <TableCell align="center">Price</TableCell>
-                            <TableCell align="center">Quantity</TableCell>
+                            <TableCell align="center">Producto</TableCell>
+                            <TableCell align="center">Precio</TableCell>
+                            <TableCell align="center">Cantidad</TableCell>
                             <TableCell align="center">Total</TableCell>
                             <TableCell></TableCell>
                         </TableRow>
