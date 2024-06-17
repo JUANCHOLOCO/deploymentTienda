@@ -24,7 +24,7 @@ export const Cart = () => {
     }, [cart]);
 
     useEffect(() => {
-        document.title = 'MelanyStore - Cart';
+        document.title = 'MelanyStore - Carrito';
     }, []);
     return (
         <Grid container gap={1}>
@@ -42,7 +42,7 @@ export const Cart = () => {
                     fontWeight={'semibold'}
                     color={'secondary.dark'}
                 >
-                    Shopping Cart
+                    Carrito de compras
                 </Typography>
                 <Typography
                     component={'p'}
@@ -54,8 +54,7 @@ export const Cart = () => {
                     fontWeight={'bold'}
                     textAlign={'center'}
                 >
-                    Check your order carefully. Check quantities and prices
-                    before finalising your purchase.
+                    Verifica atentamente tu pedido. Revisa cantidades y precios antes de finalizar tu compra.
                 </Typography>
                 <TableCart />
                 <Box
@@ -77,7 +76,7 @@ export const Cart = () => {
                             mt={0.5}
                             onClick={() => clearCart()}
                         >
-                            Clear Cart
+                            Vaciar Carro
                         </Typography>
                     </Box>
                     <Link to="/">
@@ -92,7 +91,7 @@ export const Cart = () => {
                             fontWeight={'semibold'}
                         >
                             <Replay color="primary" fontSize="small" />
-                            Continue Shopping
+                            Seguir comprando
                         </Box>
                     </Link>
                 </Box>
@@ -113,7 +112,7 @@ export const Cart = () => {
                     color={'primary.dark'}
                     py={1.5}
                 >
-                    Cart Summary
+                    Resumen de compra
                 </Typography>
                 <Divider />
 
@@ -134,7 +133,7 @@ export const Cart = () => {
                             fontWeight={'bold'}
                             color={'primary.dark'}
                         >
-                            Shipping
+                            Envio
                         </Typography>
                         <Typography color={'success.main'}>free</Typography>
                     </Box>
@@ -153,7 +152,7 @@ export const Cart = () => {
                         <Typography>{`$${totalCart}`}</Typography>
                     </Box>
                     <Button variant="contained" fullWidth color="primary">
-                        Finish Order
+                    finalizar compra
                     </Button>
                 </Box>
             </Grid>
